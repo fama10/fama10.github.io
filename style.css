@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+.main
+{
+background-color: turquoise;
+height: 300px;
+flex-direction: row;
+
+}
+.container{
+    width: 1000px;
+}
+.content{
+    display: flex; 
+    justify-content: center;
+
+}
+.main .container{
+    width: 1200px;
+    display: flex;    
+    color: white;
+    align-items: center;
+}
+
+.main .container .contact{
+    height: 200px;
+    flex: 3;
+    margin-left: 57px;
+}
+
+.main .container .photo{
+    
+    flex: 1;
+    text-align: center;
+}
+.main .container .photo img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 280px;    
+}
+h1, h2, h3{
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+}
+
+.technologies h2{
+    margin-top: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+.technologies ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.technologies li{
+    display: flex;
+    align-items: center;
+}
+.technologies li img{
+    height: 30px;
+    margin-right: 10px;
+    font-weight: lighter;
+   flex-direction: column;
+   flex-flow: column wrap;
+}
+.technologies li h3{
+    flex-flow: column wrap;
+    flex-direction: column;
+}
