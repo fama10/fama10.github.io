@@ -51,7 +51,7 @@ h1, h2, h3{
 
 .technologies h2{
     margin-top: 20px;
-    text-align: center;
+    
     margin-top: 30px;
 }
 .technologies ul{
@@ -65,17 +65,14 @@ h1, h2, h3{
     margin-bottom: 20px;
 }
 .technologies li{
-    display: flex;
-    align-items: center;
+   
+    
+   
 }
 .technologies li img{
     height: 30px;
     margin-right: 10px;
     font-weight: lighter;
-   flex-direction: column;
-   flex-flow: column wrap;
-}
-.technologies li h3{
-    flex-flow: column wrap;
-    flex-direction: column;
+    
+   
 }
