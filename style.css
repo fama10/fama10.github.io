@@ -79,3 +79,22 @@ h1, h2, h3{
     
    
 }
+.iconeflex{
+    display: flex;
+    flex-direction: row;
+}
+.iconeimage{
+    height: 13px;
+    width: 13px;
+    align-items: center; 
+    margin-top: 10px;
+    margin-right: 3px;    
+}
+.iconeimagetele{
+    height: 13px;
+    width: 13px;
+    align-items: center; 
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 3px;    
+}
