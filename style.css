@@ -50,9 +50,8 @@ h1, h2, h3{
 }
 
 .technologies h2{
-    margin-top: 20px;
-    
-    margin-top: 30px;
+    margin-top: 20px;    
+    text-align: center;
 }
 .technologies ul{
     list-style: none;
@@ -65,9 +64,9 @@ h1, h2, h3{
     margin-bottom: 20px;
 }
 .technologies li{
-   
-    
-   
+   flex:1; 
+   display: flex;te
+     
 }
 .technologies li img{
     height: 30px;
