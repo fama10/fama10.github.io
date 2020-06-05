@@ -1,56 +1,32 @@
 body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-    font-weight: lighter;
-}
-.main
-{
-background-color: turquoise;
-height: 300px;
-flex-direction: row;
-
-}
-.container{
-    width: 1000px;
-}
-.content{
-    display: flex; 
-    justify-content: center;
-
-}
- .technologies{
-    background-color: ghostwhite;
-    
-}
-.main .container{
-    width: 1200px;
-    display: flex;    
-    color: white;
-    align-items: center;
+	background-color:#e3e0dc;
 }
 
-.main .container .contact{
-    height: 200px;
-    flex: 3;
-    margin-left: 57px;
+.img{
+    width: 35px;
+    height: 35px;
+  }
+
+.gep{
+    width: 70px;
+    height: 45px ;
+    position:relative; bottom: 0.7rem;
+  }
+
+a:hover { 
+    text-decoration: none; 
+} 
+
+.slink {
+  color: black;
 }
 
-.main .container .photo{
-    
-    flex: 1;
-    text-align: center;
+.footer{
+  background-color: #1c4149; 
 }
-.main .container .photo img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin-left: 280px;    
-}
-h1, h2, h3{
-    margin: 0;
-    padding: 0;
-    font-weight: lighter;
+
+.footer li {
+  font-size: large;
 }
 
 .technologies h2{
@@ -97,4 +73,76 @@ h1, h2, h3{
     margin-left: 10px;
     margin-top: 10px;
     margin-right: 3px;    
+}
+.icon .step2 {
+    border: 2px solid #00b384;
+    
+}
+
+.cricle-tile .icon1 {
+    background-image: url(../fama10.github.io/imgs/tech/ecole.png);
+    
+        width: 130px;
+        height: 130px;
+        border-radius: 100%;
+        border: 2px solid #0b80e0;
+        background-color: #fff;
+        text-align: center;
+        line-height: 115px;
+        
+        
+    }
+
+.cricle-tile .icon2 {
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    border: 2px solid #0b80e0;
+    background-color: #fff;
+    text-align: center;
+    line-height: 115px;
+    
+    background-image: url(../fama10.github.io/imgs/tech/dr.png);
+}
+
+
+.cricle-tile .icon3 {
+    background-image: url(../fama10.github.io/imgs/tech/sg.png);
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    border: 2px solid #0b80e0;
+    background-color: #fff;
+    text-align: center;
+    line-height: 115px;
+    
+}
+.icon .step3 {
+    border: 2px solid #eca01a;
+    
+}
+.cricle-tile-row {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 15px;
+    display: flex;
+    align-items: start;
+    margin-top: 25px;
+}
+
+.criple-cricle-row .cricle-tile p {
+    color: #46464e;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 5px;
+    margin-bottom: 53px;   
+}
+.cricle-tile h4 {
+    color: #46464e;
+    font-family: "Roboto Slab";
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
 }
